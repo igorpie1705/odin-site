@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.first-container {
+  flex: 1;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.second-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-container {
+  background-color: #E5E7EB;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  flex: 1;
+  display: flex;
+}
+
+.website-description-large {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+}
+
+.website-description-small {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  color: white;
+}
+
+.advertisement-container {
+  background-color: #3882F6;
+  color: white;
+  flex: 1;
+  display: flex;
+}
+
+.random-info {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.header .footer {
+  display: flex;
+  flex: 1;
+}
