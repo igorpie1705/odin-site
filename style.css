@@ -32,27 +32,54 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 200px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
+
+.cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-text {
+  text-align: center;
+  width: 150px;
+}
+
+.square {
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+  border-color: #3882F6;
+  border-radius: 10px;
+}
+
 
 .third-container {
   background-color: #E5E7EB;
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 0px 200px;
+  padding: 50px 200px;
 }
 
-.fourth-container{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 200px;
-}
+
 
 .footer {
   background-color: #1F2937;
   color: white;
   padding: 0px 200px;
+  text-align: center;
 }
 
 .website-description-container {
@@ -102,14 +129,67 @@ body {
   flex: 1;
   background-color: #3882F6;
   color: white;
-  width: auto;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fourth-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .advertisement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #3882F6;
   color: white;
-  height: 100px;
+  height: 30px;
   width: auto;
+  padding: 30px;
+  border-radius: 5px;
+  gap: 80px;
+  
+  
+}
+
+.sign-up-button-ad {
+  display: flex;
+  flex: 1;
+  background-color: #3882F6;
+  color: white;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  justify-content: center;
+  margin-top: 10px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+.ad-text-bold {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.ad-text-bottom {
+  margin-top: 5px;
 }
 
 .random-info {
@@ -118,11 +198,20 @@ body {
   color: #1F2937;
 }
 
-.quote-text {
+.quote {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 300;
   color: #1F2937;
+  margin-bottom: 0;
 
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1F2937;
+  text-align: right;
+  margin-top: 0;
 }
 
 .header {
